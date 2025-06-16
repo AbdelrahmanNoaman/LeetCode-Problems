@@ -1,9 +1,9 @@
-#include "p2016.h";
+#include "Solution.h";
 #include <algorithm>
 
-p2016::p2016() {}
+Solution::Solution() {}
 
- int p2016::solve(std::vector<int>& nums) {
+ int Solution::solve(std::vector<int>& nums) {
         int maxDiff = -1;
         int maxNumberInRight = nums[nums.size() - 1];
 
@@ -19,6 +19,6 @@ p2016::p2016() {}
         return maxDiff;
     }
 
-int p2016::test(std::vector<int>& nums) {
+int Solution::test(std::vector<int>& nums) {
     return this->solve(nums);
 }

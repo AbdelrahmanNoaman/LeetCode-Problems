@@ -1,13 +1,13 @@
 #include<vector>
-#ifndef P2016
-#define P2016
+#ifndef SOLUTION_2016
+#define SOLUTION_2016
 
-class p2016 {
+class Solution {
 private:
     int solve(std::vector<int>& nums);
 public:
-    p2016();
+    Solution();
     int test(std::vector<int>& nums);
 };
 
-#endif P2016
+#endif SOLUTION_2016
