@@ -1,4 +1,4 @@
-#include "Solution.h";
+#include "Solution.h"
 #include <algorithm>
 #include<iostream>
 
@@ -13,7 +13,7 @@ bool Solution::isValidIpElement(std::string s) {
 	return true;
 }
 
-std::vector<std::string> Solution::solveIteratevly(std::string s) {
+std::vector<std::string> Solution::solveIteratively(std::string s) {
 	std::vector<std::string>result;
 
 	for (int j = 1; j < s.size(); j++) {
@@ -68,8 +68,8 @@ std::vector<std::string>Solution::solveRecursively(std::string s) {
 
 std::vector<std::string>Solution::test(std::string s,SolvingMethod method) {
 	std::vector<std::string>result;
-	if (method == SolvingMethod::ITERATEVILY) {
-		result = solveIteratevly(s);
+	if (method == SolvingMethod::ITERATIVELY) {
+		result = solveIteratively(s);
 	}
 	if (method == SolvingMethod::RECURSIVELY) {
 		result = solveRecursively(s);
