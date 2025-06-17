@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(ProblemSolving)
 set(CMAKE_CXX_STANDARD 17)
 
-# Find all main.cpp files recursively — one per problem folder
+# Find all main.cpp files recursively ï¿½ one per problem folder
 file(GLOB_RECURSE MAIN_FILES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/*/main.cpp")
 
 # Loop over each main.cpp file and create an executable

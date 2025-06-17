@@ -1,10 +1,10 @@
-#include "Solution.h";
+#include "Solution.h"
 #include <algorithm>
 
-Solution::Solution() {}
+Solution::Solution() {};
 
  int Solution::solve(std::vector<int>& nums) {
-        int maxDiff = -1;
+        int maxDiff = 100;
         int maxNumberInRight = nums[nums.size() - 1];
 
         for (int i = nums.size() - 2; i >= 0; i--) {

@@ -4,7 +4,7 @@
 
 int main() {
 	Solution getMaximumDifferenceBetweenIncreasingElements;
-	std::vector<int>values = { 1,5,3,2,4,8,6,10,2,9 };
+	std::vector<int>values = { 5,4,3,2,1 };
 	std::cout << getMaximumDifferenceBetweenIncreasingElements.test(values) << std::endl;
 
 	return 0;

@@ -2,7 +2,7 @@
 #define SOLVING_METHOD
 
 enum class SolvingMethod {
-    ITERATEVILY,
+    ITERATIVELY,
     RECURSIVELY,
 };
 

@@ -10,4 +10,4 @@ public:
     int test(std::vector<int>& nums);
 };
 
-#endif SOLUTION_2016
+#endif

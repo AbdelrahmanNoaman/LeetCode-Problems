@@ -5,7 +5,7 @@
 int main() {
 	Solution restoreIpAddresses;
 	std::cout << "SOLVING ITERATIVELY..." << std::endl;
-	std::vector<std::string> result = restoreIpAddresses.test("2251641168",SolvingMethod::ITERATEVILY);
+	std::vector<std::string> result = restoreIpAddresses.test("2251641168",SolvingMethod::ITERATIVELY);
 	std::cout << "SOLVING RECURSIVELY..." << std::endl;
 	result = restoreIpAddresses.test("2251641168", SolvingMethod::RECURSIVELY);
 
