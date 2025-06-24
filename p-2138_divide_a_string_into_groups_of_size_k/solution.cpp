@@ -1,6 +1,6 @@
 #include "solution.h"
 
-std::vector<std::string> solve(std::string s,int k,char fill){
+std::vector<std::string> Solution::solve(std::string s,int k,char fill){
     std::string currentString = "";
     std::vector<std::string>result;
 
@@ -22,4 +22,8 @@ std::vector<std::string> solve(std::string s,int k,char fill){
         result.push_back(currentString);
     }
     return result;
+}
+
+std::vector<std::string> Solution::test(std::string s,int k,char fill){
+    return solve(s,k,fill);
 }
