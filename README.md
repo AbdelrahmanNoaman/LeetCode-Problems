@@ -12,20 +12,22 @@ The project is fully automated with **CMake** to compile each problem folder as 
       .
       
       ├── CMakeLists.txt
+
+      ├── problems
       
-      ├── p-2016_maximum_difference_between_increasing_elements/
-      
-      │ ├── main.cpp
-      
-      │ ├── solution.cpp
-      
-      │ └── solution.h
-      
-      ├── p-XXXX_another_problem/
-      
-      │ ├── main.cpp
-      
-      │ └── ...
+      | ├── p-2016_maximum_difference_between_increasing_elements/
+        
+      | │ ├── main.cpp
+        
+      | │ ├── solution.cpp
+        
+      | │ └── solution.h
+        
+      | ├── p-XXXX_another_problem/
+        
+      | │ ├── main.cpp
+        
+      | │ └── ...
   
   ```
 ---
