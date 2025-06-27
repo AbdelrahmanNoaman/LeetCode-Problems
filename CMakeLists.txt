@@ -3,7 +3,7 @@ project(ProblemSolving)
 set(CMAKE_CXX_STANDARD 17)
 
 # Find all main.cpp files recursively � one per problem folder
-file(GLOB_RECURSE MAIN_FILES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/*/main.cpp")
+file(GLOB_RECURSE MAIN_FILES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/problems/*/main.cpp")
 
 # Loop over each main.cpp file and create an executable
 foreach(main_file ${MAIN_FILES})
