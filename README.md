@@ -51,8 +51,8 @@ The project is fully automated with **CMake** to compile each problem folder as 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/AbdelrahmanNoaman/PS.git
-   cd PS
+   https://github.com/AbdelrahmanNoaman/LeetCode-Problems.git
+   cd LeetCode-Problems
 
 2. **Open the project:**
 
@@ -85,8 +85,8 @@ The project is fully automated with **CMake** to compile each problem folder as 
   1. **Clone the repository:**
   
      ```bash
-     git clone https://github.com/AbdelrahmanNoaman/PS.git
-     cd PS
+     git clone https://github.com/AbdelrahmanNoaman/LeetCode-Problems.git
+     cd LeetCode-Problems
      code .
   
   2. **Configure the project:**
@@ -113,8 +113,8 @@ The project is fully automated with **CMake** to compile each problem folder as 
 **Steps:**
 
   ```bash
-    git clone https://github.com/AbdelrahmanNoaman/PS.git
-    cd PS
+    git clone https://github.com/AbdelrahmanNoaman/LeetCode-Problems.git
+    cd LeetCode-Problems
     
     # Create a build directory
     mkdir build && cd build
